@@ -1,0 +1,46 @@
+{
+  "configurations" : [
+    {
+      "id" : "A9C93D05-C85F-40CC-929A-DCFE895813DC",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:EventosMadrid.xcodeproj",
+          "identifier" : "999289772A7BC44500929713",
+          "name" : "EventosMadrid"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:EventosMadrid.xcodeproj",
+      "identifier" : "999289772A7BC44500929713",
+      "name" : "EventosMadrid"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EventosMadrid.xcodeproj",
+        "identifier" : "999289872A7BC44600929713",
+        "name" : "EventosMadridTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EventosMadrid.xcodeproj",
+        "identifier" : "999289912A7BC44600929713",
+        "name" : "EventosMadridUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
